@@ -3,76 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.repair_2{
-    display: flex;
-    justify-content: center;
-    font-size: smaller;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-    text-align: center; 
-    color: gray;
-}
-.section_2{
-position: relative;
-}
-.repair_2{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+@media (min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
     
-}
-.repair_2 :hover{
-    background-color: orange;
-    color: white;
-}
-.contact{
-    background-color: white;
-    padding-top: 20px;
-    text-align: center;
-}
-
-input[type=text],select{
-    width: 80%;
-    padding: 8px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px outset lightgrey;
-    opacity: 70%;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-input[type=email]{
-    width: 80%;
-    padding: 8px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px outset lightgray; 
-    opacity: 70%;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-input[type=textarea]{
-    width: 80%;
-    padding: 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px outset lightgray; 
-    opacity: 70%;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit]{
-    width: 80%;
-    background-color:blue;
-    color: white;
-    padding: 5px 10px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 0 10px 0 10px;
-}
-input[type=submit]:hover{
-    background-color: indigo;
-
 }
